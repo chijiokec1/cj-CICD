@@ -12,5 +12,5 @@ jobs:
         run: |
           echo "hello world" 
       - name: Test_Fail
-        run: exit;
+        run: exit 1;
 
